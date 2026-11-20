@@ -1,0 +1,2 @@
+# Work-only layer: its own git repository, never pushed with this one.
+/work/
