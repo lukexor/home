@@ -1,2 +1,4 @@
 # Work-only layer: its own git repository, never pushed with this one.
 /work/
+# Plans and other transient working files. Kept local, never committed.
+/plans/

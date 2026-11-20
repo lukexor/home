@@ -31,9 +31,16 @@ machines.
 
 ## Plans and notes
 
-Write plans, research and working notes into this repo (`work/plans/` or
-`work/docs/` for work, `plans/` or `docs/` for personal), never into a
-scratchpad or `/tmp`. Scratchpads get cleared and the links break.
+- Plans go in `plans/`, work and personal alike. The folder is gitignored:
+  plans change often and are transient, so they stay local and are never
+  committed. Plan mode writes there too (`plansDirectory` in
+  `.claude/settings.json`).
+- Keep `plans/README.md` as the index of live plans. Add a line when a plan
+  starts, and remove it when the plan is done or abandoned.
+- Durable notes and reference material go in `docs/` (personal) or
+  `work/docs/` (work), and are committed.
+- Never keep plans or notes in a scratchpad or `/tmp`. Those get cleared and
+  the links break.
 
 ## Repositories
 
